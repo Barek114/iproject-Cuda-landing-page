@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    width: 100%;
+    float: left;
+    background-color: #87509c;
+    padding: 50px 0px;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    float: left;
+}
+.container-box {
+    width: 90%;
+    margin: auto;
+    color: #fff;
+}
+.logo-part{
+width: 50%;
+float: left;
+}
+.menu-part{
+width: 50%;
+float: left;
+margin: auto;
+text-transform: uppercase;
+}
+.menu-part li {
+ list-style: none;
+ display: inline-block;
+}
+.menu-part a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu-part a:hover{
+    background-color: #643a79;
+}
+.writing-part{
+    width: 100%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.writing-part input{
+    background-color: #eb7d4b;
+    margin: 45px 0px;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.writing-part h1{
+    font-size: 30px;
+}
+.underline{
+    width: 5%;
+    border-bottom: 5px solid #586d69;
+    margin:20px auto;
+    text-align: center;
+}
+/* section */
+#service{
+    width: 100%;
+    float: left;
+    background-color: #17c2a4;
+    text-align: center;
+}
+#service p{
+    font-size: 20px;
+}
+.service-writing-part{
+    width: 100%;
+    float: left;
+}
+
+.service-box-part{
+    width: 100%;
+    float: left;
+}
+.box-part{
+    width: 25%;
+    float: left;
+    padding: 75px 0px;
+}
+.box-part h3{
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+/* section 2 */
+
+#skills-part{
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.skills-writing-part{
+    width: 100%;
+    float: left;
+    color:#3c4761;
+    margin: 75px 0px;
+}
+.skills-writing-part h1{
+    font-size: 35px;
+}
+.skills-writing-part p{
+    font-size: 20px;
+}
+
+
+.skills-box-part{
+    width: 25%;
+    float: left;
+    padding-bottom: 55px;
+}
+/* ===========team part======== */
+
+#team-part{
+    width: 100%;
+    float: left;
+    background-color: #e7f1f8;
+    text-align: center;
+    padding: 75px 0px;
+    font-size: 30px;
+}
+.team-writting-part{
+    width: 100%;
+    float: left;
+    color: #3c4761;
+}
+.team-writting-part p{
+color:#3c4761 ;
+}
+.team-box-part{
+    width: 25%;
+    float: left;
+    color: #3c4761;
+    padding-top: 100px;
+}
+.team-box-part h1{
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.team-box-part p{
+    padding-top: 40px;
+    font-size: 20px;
+}
+.team-box-part a{
+    padding-top: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.team-box-part i{
+    padding: 20px 0px;
+}
+/* -=-==-=--=PORTFOLIO-part-=-=-=-=-=-= */
+
+.PORTFOLIO-part{
+    width: 100%;
+    float: left;
+    background-color: #ffdd99;
+    color: #393939;
+    text-align: center;
+}
+.portfolio-writing-part{
+width: 100%;
+float: left;
+color: #393939;
+font-size: 20px;
+margin-top: 80px;
+}
+.portfolio-writing-part h1 {
+    font-size: 40px;
+}
+.portfolio-menu-part{
+width: 100%;
+float: left;
+margin: 20px;
+
+}
+.portfolio-menu-part li{
+list-style: none;
+ display: inline-block;
+ margin: 15px;
+ padding: 10px;
+ font-size: 20px;
+}
+
+#b a{
+text-decoration: none;
+text-transform: uppercase;
+color: #393939;
+background-color: #ebc985;
+padding: 5px 5px;
+margin: 25px 0px;
+font-size: 20px;
+
+}
+.portfolio-menu-part a:hover{
+    background-color: #fff;
+}
+.portfolio-box-part-1{
+width: 50%;
+float: left;
+color: #393939;
+margin-top: 35px;
+padding: 0px 40px;
+text-transform: uppercase;
+}
+.portfolio-box-part-2{
+    width: 50%;
+    float: left;
+    color: #393939;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+.portfolio-submit-part a{
+    text-decoration: none;
+    background-color: #17c2a4;
+    padding: 20px;
+
+}
+.portfolio-submit-part{
+    width: 100%;
+    float: left;
+    margin: 50px 0px;
+}
+/* -------form ------*/
+.touch-login-part-1 input{
+    width: 21%;
+    float: top;
+    margin: 60px 10px;
+    padding: 20px;
+    display: inline-block;
+    background-color: #273a71;
+    color: #ffffff;
+}
+.TOUCH{
+    width: 100%;
+    float: left;
+    background-color: #3c5499;
+    text-align: center;
+     }
+     .touch-writing-part h1{
+        font-size: 40px;
+     }
+ .touch-login-part-2 textarea{
+     width: 43%;
+     float: top;
+     padding: 20px;
+     background-color: #273a71;
+ } 
+ #m{
+    color: #ffffff;
+ }
+ .submit{
+    width: 100%;
+    float: left;
+ }
+.submit input{
+    padding: 20px;
+    margin: 20px 0px 60px 0px;
+    background-color: #30bae7;
+}
+.footer-part{
+    width: 100%;
+    float: left;
+    background-color: #344b8e;
+}
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+li a:hover{
+    color: #319ccf;
+}
+footer li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+ 
